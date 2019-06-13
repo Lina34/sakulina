@@ -1,0 +1,220 @@
+body {
+    /* width: 960px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 960px;
+    height: 98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 26px;
+}
+
+header li {
+    font-size:22px;
+    font-family: "ヒラギノ角ゴ ProN";
+
+}
+
+.midasi {
+    margin:60px 48px;
+}
+
+p, li {
+    color: #707070;
+    font-size:36px;
+    font-family: "ヒラギノ角ゴ ProN";
+}
+
+main p {
+    font-family: "ヒラギノ角ゴ ProN";
+
+}
+
+header p {
+    font-size:37px;
+    font-family: "ヒラギノ角ゴ ProN";
+    margin:6px 24px;
+
+    
+}
+
+header ul {
+    display: flex;
+    margin:0px 25px 2px 3px;
+
+}
+
+header ul li {
+    margin: 12px 15px 5px 10px;
+
+}
+
+.mv {
+    width: 100%;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: center;
+}
+
+.mv img {
+
+    width: 960px;
+    height: 547px;
+
+}
+
+.latestblock {
+    width: 960px;
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    margin:0 20px;
+    flex-wrap: wrap;
+
+
+}
+
+.latest {
+    width: 287px;
+    height: 351px;
+    margin: -34px 41px 2px -19px;
+
+}
+
+.latest p {
+    font-size:18px;
+    line-height: 30px;
+}
+
+.latestcontents {
+    width: 100%;
+    margin:22px 35px 13px 21px;
+}
+
+.latestcontents img {
+    height: 178px;
+    width: 300px;
+    margin-bottom: 28px;
+
+}
+
+
+
+
+.readmore {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin:11px 47px;
+}
+
+.readmore a {
+    padding:0 20px;
+    text-decoration: none;
+    color:#6F88ED;
+    font-size: 19px;
+
+
+}
+
+@media screen and (max-width: 400px){
+
+
+
+    main {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin:0;
+        padding:0;
+    }
+    header {
+        box-sizing: 400px;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* margin:0 20px; */
+        margin:0;
+        padding:0;
+
+    }
+
+    header p {
+        font-size:20px;
+        padding:0;
+
+    }
+
+    header li {
+        font-size:15px;
+        margin:0;
+        padding:0;
+
+    }
+
+    header ul {
+        margin-left:20px;
+        margin:0;
+        padding:0;
+
+
+    }
+    .latestblock {
+        box-sizing: 400px;
+        margin:0;
+        padding:0;
+
+
+        width: 400px;
+        /* height: 100px; */
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* margin:0 20px; */
+    
+    
+    }
+    
+    .latest p {
+        font-size :15px;
+        margin:0;
+        padding:0;
+
+    }
+
+
+    .latestcontents img {
+        height:100%;
+        width:300px;
+        margin:0 2px;
+        margin:0;
+        padding:0;
+
+    }
+
+    main p {
+        margin:0 5px;
+        line-height: 30px;
+        margin:0;
+        padding:0;
+
+    }
+    
+    .mv img {
+        width: 100%;
+        height:258px;
+        margin:0;
+        padding:0;
+
+    }
+}
