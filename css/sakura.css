@@ -1,0 +1,151 @@
+
+/* フォーム */
+
+.contact {
+    margin: 0 auto;
+    width: 46%;
+   
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-left: -24px;
+    margin-top: -32px;
+}
+
+ p {
+    color: #707070;
+    font-size: 33px;
+    margin-top: -8px;
+    margin-bottom: 20px;
+    margin-left: 26px;
+    letter-spacing: 2px;
+    /* font-family: ヒラギノ角ゴ ProN; */
+
+}
+
+.inputs {
+    width: 600px;
+    height: 30px;
+    margin-bottom: 30px;
+    padding: 8px 0 8px 16px;
+    color: #dee7ec;
+    font-size: 19px;
+    border: 0.5px solid #707070;
+    
+}
+
+textarea {
+    padding: 14px 0 0 9px;
+    font-size: 20px;
+}
+
+::-webkit-input-placeholder{
+    font-family: "Verdana",  sans-serif;
+}
+:-moz-placeholder {
+    font-family: "Verdana",  sans-serif;
+}
+
+::placeholder {
+    color: #e1e1e1;
+  }
+
+
+
+.submit {
+    background-color: #707070;
+    color: #fff;
+    text-align: center;
+    width: 586px;
+    height: 48px;
+    margin-top: 36px;
+    margin-bottom: 11px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+    padding: 0 50px;
+    font-size: 18px;
+}
+
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    height: 60px;
+    margin-top: 70px;
+    background-color: black;
+
+}
+
+footer p {
+    color: #fff;
+    padding: 18px 0 15px 14px;
+    font-size: 18px;
+    width: 945px;
+    margin: 0;
+    font-family: ヒラギノ角ゴ ProN;
+}
+
+
+
+
+/* レスポンシブ */
+
+@media screen and (max-width: 960px) {
+
+    body {
+        margin: 0;
+    }
+    .contact {margin: 0;}
+
+    .form {
+        display: block;
+        margin-left: 0;
+    }
+
+    textarea {
+        border: 0.5px solid #707070;
+    }
+    
+
+    footer {
+       
+        width: 620px;
+    } 
+
+    p {
+        font-size: 40px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .submit {
+        width: 100%;
+        margin-left: 50%;
+        padding: 0;
+    }
+
+    .footer {
+        display: block;
+    }
+   
+    .inputs {
+        width: 100%;
+        margin-left: 30%;
+    }
+}
+
+/* .inputs {
+    width: 600px;
+    height: 30px;
+    margin-bottom: 30px;
+    padding: 8px 0 8px 16px;
+    color: #dee7ec;
+    font-size: 19px;
+    border: 0.5px solid #707070;
+    
+} */
