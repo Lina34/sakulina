@@ -98,9 +98,7 @@ footer p {
 
 @media screen and (max-width: 960px) {
 
-    body {
-        margin: 0;
-    }
+    
     .contact {margin: 0;}
 
     .form {
@@ -139,13 +137,4 @@ footer p {
     }
 }
 
-/* .inputs {
-    width: 600px;
-    height: 30px;
-    margin-bottom: 30px;
-    padding: 8px 0 8px 16px;
-    color: #dee7ec;
-    font-size: 19px;
-    border: 0.5px solid #707070;
-    
-} */
+
